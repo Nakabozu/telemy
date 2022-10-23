@@ -1,8 +1,10 @@
 <script>
-
+    import jingleJangle from "../assets/jingle-jangle.png";
 </script>
 
-<div></div>
+<div>
+    <img src={jingleJangle} />
+</div>
     
 <style>
    

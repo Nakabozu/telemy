@@ -13,11 +13,11 @@
         text="";
 
         if(xPos < 100){
-            text = text + "You're too far left ";
+            text = text + "The stone's quite far ";
         }else if(xPos < 200){
             text = text + "A great deal right ";
         }else if(xPos < 300){
-            text = text + "A step or two right ";
+            text = text + "Step to the right ";
         }else if(xPos < 400){
             text = text + "Move to the right ";
         }else if(xPos < 500){
@@ -31,11 +31,11 @@
         }else if (xPos < 900){
             text = text + "Move to the left ";
         }else if (xPos < 1000){
-            text = text + "A step or two left ";
+            text = text + "Step to the left ";
         }else if (xPos < 1100){
             text = text + "A great deal left ";
         }else {
-            text = text + "You're too far right ";
+            text = text + "The stone's quite far ";
         }
 
         if(yPos < 248){
