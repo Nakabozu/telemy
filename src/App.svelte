@@ -16,7 +16,7 @@
   import parchment from "./assets/Parchment.png";
 
 
-  let puzzlePhase = 3;
+  let puzzlePhase = 0;
 
   const onClickCobblestone = () => {
     playSound(magicSound);
