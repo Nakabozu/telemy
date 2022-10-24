@@ -5,7 +5,7 @@
   import CobblestoneClickable from "./lib/CobblestoneClickable.svelte";
   import FloatingScript from "./lib/FloatingScript.svelte";
   import WallClickable from './lib/WallClickable.svelte';
-  import JingleJangle from './lib/JingleJangle.svelte';
+  import Keyhole from './lib/Keyhole.svelte';
   // Sounds
   import magicSound from "./assets/Magic Sound Effect.mp3";
   import triangleSound from "./assets/Triangle Sound Effect.mp3";
@@ -16,7 +16,7 @@
   import parchment from "./assets/Parchment.png";
 
 
-  let puzzlePhase = 0;
+  let puzzlePhase = 3;
 
   const onClickCobblestone = () => {
     playSound(magicSound);
@@ -112,7 +112,6 @@
   "The magic word makes my door open.  Apologies, the last rune's broken.";
 
   const jingleJangleWelcomesYou = () => {
-
     playSound(keysSound);
   }
 </script>
@@ -152,7 +151,7 @@
   {/if}
 
   {#if puzzlePhase === 3}
-    <JingleJangle />
+    <Keyhole />
   {/if}
 </main>
 
@@ -161,6 +160,7 @@
     height: 100%;
     width: 100%;
     background-image: url("./assets/mossy-cobble.png");
+    overflow: hidden;
   }
 
   .magical-loading{
