@@ -107,9 +107,10 @@
     }
   }
 
-  let runeParchmentText="A magic pollen chases you. Telemy won't just let you though. "+
-  "You've found my cave atop this hill.  But to get in, you'll need goodwill. "+
-  "The magic word makes my door open.  Apologies, the last rune's broken.";
+  let runeParchmentText="Telemys roots are chasing you. The secret door wont let you though. "+
+  "Youve found my cave atop this hill, but to get in, youll need goodwill. "+
+  "Spell a word that should be spoken when you ask for a grand token."+
+  "That magic word makes my door open.  Apologies, the last runes broken.";
 
   const jingleJangleWelcomesYou = () => {
     playSound(keysSound);
@@ -175,38 +176,38 @@
   }
 
   .wall-text-bubble{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        text-align: center;
-        vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
 
-        margin-top: 25px;
-        margin-left: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
 
-        width: fit-content;
-        height: fit-content;
+    width: fit-content;
+    height: fit-content;
 
-        text-align: center;
-        vertical-align: middle;
-    }
+    text-align: center;
+    vertical-align: middle;
+  }
     
-    .parchment-img{
-        width: 300px;
-    }
+  .parchment-img{
+    width: 400px;
+  }
 
-    .parchment-text{
-        position: absolute;
-        height: 135px;
-        width: 260px;
+  .parchment-text{
+    position: absolute;
+    height: 272px;
+    width: 360px;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        padding-top:35px;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+  }
   /* NOTES *
     
     

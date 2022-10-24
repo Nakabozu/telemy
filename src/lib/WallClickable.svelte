@@ -2,7 +2,7 @@
     import parchment from "../assets/Parchment.png";
     import FingerPrint from "./FingerPrint.svelte";
 
-    let text="If this note's here, I'm in distress!  Find the stone that you must press!";
+    let text="If this notes here, Im in distress!  Find the stone that you must press!";
     let fingerprintArray = [];
     const onWallClick = (e) => {
         let xPos = e.pageX;
@@ -13,7 +13,7 @@
         text="";
 
         if(xPos < 100){
-            text = text + "The stone's quite far ";
+            text = text + "The stones quite far ";
         }else if(xPos < 200){
             text = text + "A great deal right ";
         }else if(xPos < 300){
@@ -35,11 +35,11 @@
         }else if (xPos < 1100){
             text = text + "A great deal left ";
         }else {
-            text = text + "The stone's quite far ";
+            text = text + "The stones quite far ";
         }
 
         if(yPos < 248){
-            text = text + "and down some more to find Telemy's magic door!";
+            text = text + "and down some more to find Telemys magic door!";
         }else{
             text = text + "and up a bit to find the stone that you must hit!";
         }

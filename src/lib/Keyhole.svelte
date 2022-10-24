@@ -8,7 +8,7 @@
     <img src={jingleJangle} alt="Jingle Jangle" class="jingle-img"/>
     <div class="wall-text-bubble">
         <img src={parchment} alt="parchment-background" class="parchment-img"/>
-        <span class="parchment-text">I see you've passed Telemy's test. Come to my foyer, take a rest.</span>
+        <span class="parchment-text">I see youve passed Telemys test. Come to my foyer, take a rest.</span>
       </div>
     <img src={keyhole} alt="Keyhole" class="keyhole-img"/>
 </div>
@@ -110,7 +110,4 @@
             width: 200vw;
         }
     }
-    /*
-        I see you've passed Telemy's Test.  Come to my Foyer, take a rest.
-    */
 </style>
