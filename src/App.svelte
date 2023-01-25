@@ -72,8 +72,6 @@
             randomX+=6;
             randomY-=6;
           }
-          
-          console.log("test");
         }
       });
 
@@ -219,5 +217,7 @@
     A toast to you you who has my favor!
     Did you enjoy the floral flavor?
   /**/
+
+  
 </style>
 

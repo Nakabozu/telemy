@@ -24,6 +24,7 @@
     left: var(--X);
     top: var(--Y);
 
+    font-family: 'noto-sans-medefaidrin, Courier New, Courier, monospace';
     font-size: 50px;
     line-height: 50px;
     color: #BBB;
@@ -60,6 +61,11 @@
     animation: glow 4s linear 0s infinite reverse;
     -webkit-animation: glow 4s linear 0s infinite reverse;
     -moz-animation: glow 4s linear 0s infinite reverse;
+  }
+
+  @font-face {
+    font-family: noto-sans-medefaidrin;
+    src: url("../assets/NotoSansMedefaidrin.ttf");
   }
 
   @keyframes glow {
